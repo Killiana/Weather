@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1044aa3b59.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="src/styles.css">
+        
+    <title>Ili Codes</title>
+</head>
+<body>
+    
+    <div class="container">
+    <h1>
+        Weather Forecast
+    </h1>
+    <h3>
+        <div class="row firstLine">
+            <div class="col-4 today">
+                <ul class="list">
+     <li class="choose-city"> London</li>
+      <li class="date">08/03</li>
+    <li class="time">13:00</li>
+  <li class="emo">⛅️</li>
+<li>
+<span id="temps">14</span>
+<span class="units"> <a href="#" id="temp-cels">°C</a>  </span>
+</li>
+</ul>
+          </div>
+            
+            <div  class="col-4 wind">
+               <span id="feel" > Feels like: 0°C</span>
+                <div class="row">
+                    <div class="col-12" id="hum">
+                    Humidity: 71%
+
+                    </div>
+                    
+                    <div id="wind" class="col">
+                        Wind: 10 mph
+
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-2 town">
+                💂🏻‍♀️
+                <span class="city">
+                    London
+                </span>
+
+                <div class="row">
+                    <div class="col">
+                        
+                        <span class="city">Rome</span>👢</div>
+                    <div class="col">
+                        
+                        🎅🏻
+                        <span class="city">
+                            Oslo
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span class="city">
+Dublin
+                        </span>👩🏻‍🦰</div>
+                </div>
+                </div> 
+        </div>  
+
+    </h3>
+    
+
+<section>
+<form id="choose-city">
+    <input class="weather" id="city-name" type="text" placeholder="Enter your city">
+
+<input id="search-button" class="search" type="submit" value="Search">
+<button id="current" >Current</button>
+</form>
+
+</section>
+<p>
+    <div class="row week">
+        <div class="col">
+           <header class="days">
+            Monday
+
+           </header>             01.03
+            <br>
+            
+          <div class="emoji">
+☀️
+
+          </div> 
+           
+                16°C/4°C
+            
+            
+        </div>
+        <div class="col">
+            <header class="days">
+                Tuesday
+            </header>
+            02.03
+            
+            <br>
+   <div class="emoji">
+
+        ⛅️
+   </div>
+            
+                14°C/5°C
+            
+        </div>
+        <div class="col">
+            <header class="days">
+Wednesday
+            </header>
+            03.03
+            
+            <br>
+          <div class="emoji">
+☔️
+          </div>
+            
+            
+            
+
+    10°C/3°C
+
+        </div>
+        <div class="col">
+         <header class="days">
+Thursday
+         </header>
+            04.03
+            
+            <br>
+           <div class="emoji">
+                💦
+           </div>
+        
+
+        11°C/4°C
+    
+    </div>
+        <div class="col">
+        <header class="days">
+Friday
+        </header>  
+            05.03
+            <br>
+      <div class="emoji">
+                🌈
+      </div>
+        15°C/5°C
+        </div>
+    </div>
+</p>
+
+    </div>
+    <script src="src/script.js"> </script>
+</body>
+</html>

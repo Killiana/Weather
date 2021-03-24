@@ -1,0 +1,60 @@
+h1 {
+  color: #682c0e;
+  text-align: center;
+  margin-bottom: 30px;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  font-family: "Great Vibes", cursive;
+  max-width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 14px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.week {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.days {
+  color: #6a492b;
+  font-weight: 600;
+}
+span:hover {
+  text-decoration: underline;
+}
+.weather {
+  color: black;
+
+  padding: 6px 120px;
+  margin-left: 130px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+button,
+.search {
+  font-size: 20px;
+  padding: 6px 20px;
+  border-radius: 4px;
+}
+
+.today {
+  text-align: center;
+}
+.wind {
+  margin-left: 35px;
+}
+.town {
+  margin: 0 40px;
+}
+.firstLine {
+  margin-bottom: 30px;
+}
+
+.list {
+  list-style-type: none;
+}
