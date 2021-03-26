@@ -7,6 +7,11 @@ a {
   text-decoration: none;
 }
 
+.link {
+  position: relative;
+  bottom: 20px;
+  left: 270px;
+}
 .container {
   font-family: "Great Vibes", cursive;
   max-width: 60%;
